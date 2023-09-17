@@ -1,11 +1,15 @@
 import React from 'react'
+import HeroSection from './Components/HeroSection'
 
 const About = () => {
+  const data = {
+    name: "Thappa Ecommerce"
+  }
+  const img = "./Images/hero2.jpg";
   return (
-    <div>
-    About
-      
-    </div>
+    <>
+      <HeroSection myData  = {data} src = {img} />
+    </>
   )
 }
 

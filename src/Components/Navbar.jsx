@@ -11,7 +11,7 @@ const Navbar = () => {
     }
   return (
    <>
-    <div className='bg-slate-50 h-auto flex flex-col py-3 md:flex-row lg:py-1 '>
+    <div className='bg-slate-50 h-auto flex flex-col py-3 md:flex-row lg:py-1 shadow-lg shadow-gray-100 '>
     <NavLink to="/">
     <img className='h-12 w-32 ml-5' src="/Images/logo.png" alt="" />
     </NavLink>
