@@ -2,10 +2,10 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>
-    contact
-      
-    </div>
+    <>
+    <h2 className='my-10 text-3xl text-center'>Feel Free  To Contact Us</h2>
+
+    </>
   )
 }
 
